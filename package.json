@@ -4,7 +4,7 @@
   "description": "A spa blog's be",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "zoomdong",
   "license": "MIT",
@@ -14,7 +14,9 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
-    "koa": "^2.7.0"
+    "glob": "^7.1.4",
+    "koa": "^2.7.0",
+    "mongoose": "^5.6.10"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
